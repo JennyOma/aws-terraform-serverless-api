@@ -1,0 +1,32 @@
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Sensitive configuration
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated deployment packages
+*.zip
+
+# Local backups
+main.tf.*
+README.md.backup
+lambda_function.py
+lambda_function_backup.py
+response.json
+
+# Local Terraform executable
+terraform
